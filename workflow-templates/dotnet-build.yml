@@ -7,9 +7,5 @@ on:
     
 jobs:
   build:
-
-    runs-on: ubuntu-latest
-
-    steps:
-    - uses: github-mao-na-massa/pipeline-templates/.github/workflows/dotnet.yml@main
+    uses: github-mao-na-massa/pipeline-templates/.github/workflows/dotnet.yml@main
        
